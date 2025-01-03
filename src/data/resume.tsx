@@ -125,6 +125,7 @@ export const DATA = {
         'Next.js',
         'React',
         'Typescript',
+        'Turborepo',
         'Neon',
         'PostgreSQL',
         'Drizzle',
