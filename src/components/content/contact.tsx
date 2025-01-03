@@ -15,7 +15,7 @@ export function Contact() {
               Get in Touch
             </h2>
             <div className="text-muted-foreground">
-              If you'd like to get in touch, feel free to{' '}
+              If you&apos;d like to get in touch, feel free to{' '}
               <Link
                 href="mailto:charlielamb20@icloud.com"
                 className="text-foreground underline"
