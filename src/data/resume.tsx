@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: 'https://www.google.com/maps/place/london',
   description: 'Software Engineer with a passion for building things.',
   summary:
-    "I'm currently a graduate software engineer at Spark Finance, where I work on a variety of .NET microservices. At work I focus on backend development howver I enjoy bringing both the frontend and backend together in my personal projects. I spend my spare time hacking on a variety of open source full stack Typescript projects, my favourites are shown below.",
+    "I'm currently a graduate software engineer at Spark Finance, where I work on a variety of .NET microservices. At work I focus on backend development however I enjoy bringing both the frontend and backend together in my personal projects. I spend my spare time hacking on a variety of open source full stack Typescript projects, my favourites are shown below.",
   avatarUrl: `${process.env.NEXT_PUBLIC_AWS_CLOUDFRONT_URL}/public/portfolio/charlie.JPEG`,
   skills: [
     'C#',
