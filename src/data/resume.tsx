@@ -22,6 +22,7 @@ export const DATA = {
     'Python',
     'Unix',
     'Vim',
+    'Git',
     'SQL',
   ],
   tech: [
