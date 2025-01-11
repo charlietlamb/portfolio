@@ -1,9 +1,10 @@
 import BlurFade from '@/components/magicui/blur-fade'
 import BlurFadeText from '@/components/magicui/blur-fade-text'
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { LoaderCircle } from 'lucide-react'
 import { DATA } from '@/data/resume'
 import { ANIMATION } from '@/lib/constants'
+import Image from 'next/image'
 
 export function Hero() {
   return (
@@ -24,17 +25,15 @@ export function Hero() {
             />
           </div>
           <BlurFade delay={ANIMATION.BLUR_FADE_DELAY}>
-            <Avatar className="size-28 border flex justify-center items-center">
-              <AvatarImage
+            <Avatar className="size-28 border flex justify-center items-center relative overflow-hidden">
+              <Image
                 alt={DATA.name}
                 src={DATA.avatarUrl}
+                fill
+                priority
                 className="object-cover object-[center_20%]"
+                sizes="(max-width: 768px) 112px, 112px"
               />
-              <AvatarFallback>
-                {
-                  <LoaderCircle className="size-10 animate-spin text-muted-foreground" />
-                }
-              </AvatarFallback>
             </Avatar>
           </BlurFade>
         </div>
