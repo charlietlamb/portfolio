@@ -22,7 +22,7 @@ interface Props {
   video?: string
   icon?: React.ReactNode
   links?: readonly {
-    icon: React.ReactNode
+    icon: React.ReactNode | null
     type: string
     href: string
   }[]

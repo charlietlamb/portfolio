@@ -203,6 +203,7 @@ export const DATA = {
       ],
       image: `${process.env.NEXT_PUBLIC_AWS_CLOUDFRONT_URL}/public/portfolio/tracta.png`,
       video: '',
+      icon: null,
     },
     {
       title: 'Command Line Interface Tool',
