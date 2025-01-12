@@ -126,14 +126,11 @@ export const DATA = {
         'React',
         'Typescript',
         'Turborepo',
-        'Neon',
         'PostgreSQL',
-        'Drizzle',
+        'DrizzleORM',
         'Hono',
         'Cloudflare Workers',
         'TailwindCSS',
-        'Stripe',
-        'Shadcn UI',
       ],
       links: [
         {
