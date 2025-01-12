@@ -20,6 +20,7 @@ interface Props {
   link?: string
   image?: string
   video?: string
+  icon?: React.ReactNode
   links?: readonly {
     icon: React.ReactNode
     type: string
@@ -37,18 +38,19 @@ export function ProjectCard({
   link,
   image,
   video,
+  icon,
   links,
   className,
 }: Props) {
   return (
     <Card
       className={
-        'flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full'
+        'flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full justify-end'
       }
     >
       <Link
         href={href || '#'}
-        className={cn('block cursor-pointer', className)}
+        className={cn('block cursor-pointer flex-grow', className)}
       >
         {video && (
           <video
@@ -69,6 +71,11 @@ export function ProjectCard({
             className="h-40 w-full overflow-hidden object-cover object-top"
           />
         )}
+        {icon && (
+          <div className="flex justify-center items-center py-12 flex-grow text-muted-foreground h-full">
+            {icon}
+          </div>
+        )}
       </Link>
       <CardHeader className="px-2">
         <div className="space-y-1">
@@ -82,7 +89,7 @@ export function ProjectCard({
           </Markdown>
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex flex-col px-2">
+      <CardContent className="flex flex-col px-2">
         {tags && tags.length > 0 && (
           <div className="mt-2 flex flex-wrap gap-1">
             {tags?.map((tag) => (

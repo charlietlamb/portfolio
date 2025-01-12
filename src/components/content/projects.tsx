@@ -39,6 +39,7 @@ export function Projects() {
                 image={project.image}
                 video={project.video}
                 links={project.links}
+                icon={project.icon}
               />
             </BlurFade>
           ))}
