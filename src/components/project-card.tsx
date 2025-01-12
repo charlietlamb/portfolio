@@ -45,12 +45,12 @@ export function ProjectCard({
   return (
     <Card
       className={
-        'flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full justify-end'
+        'flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full'
       }
     >
       <Link
         href={href || '#'}
-        className={cn('block cursor-pointer flex-grow', className)}
+        className={cn('block cursor-pointer', icon && 'flex-grow', className)}
       >
         {video && (
           <video
@@ -89,7 +89,7 @@ export function ProjectCard({
           </Markdown>
         </div>
       </CardHeader>
-      <CardContent className="flex flex-col px-2">
+      <CardContent className=" mt-auto flex flex-col px-2">
         {tags && tags.length > 0 && (
           <div className="mt-2 flex flex-wrap gap-1">
             {tags?.map((tag) => (
