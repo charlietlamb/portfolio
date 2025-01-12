@@ -117,7 +117,7 @@ export const DATA = {
     {
       title: 'Remio',
       href: 'https://remio.xyz',
-      dates: 'Oct 2024 - Dec 2024',
+      dates: 'September 2024 - December 2024',
       active: true,
       description:
         'Developed a full-stack CRM system tailored for mediators, featuring client management, scheduling, and invoicing capabilities. Designed a robust backend API using TypeScript with Hono for routing and OpenAPI for documentation. Integrated a responsive front-end built with React, Next.js, and TailwindCSS.',
@@ -151,7 +151,7 @@ export const DATA = {
     {
       title: 'Calendar',
       href: 'https://calendar-shadcn.vercel.app/',
-      dates: 'Oct 2024 - Dec 2024',
+      dates: 'October 2024',
       active: true,
       description:
         "When I was developing Remio I needed a full calendar component. I couldn't find an adequate open source solution which displayed days, weeks and months. I decided to build my own. My solution is now used in over 30+ projects by other developers.",
@@ -251,7 +251,7 @@ export const DATA = {
     {
       title: 'Dissertation',
       href: 'https://github.com/charlietlamb/diss',
-      dates: 'May 2024 - June 2024',
+      dates: 'January 2024 - June 2024',
       active: true,
       description:
         'Conducted an in-depth study on Next.js, comparing the performance and user experience benefits of client-side rendering versus server-side rendering. Analyzed various web analytics metrics and their impact on rendering strategies. Achieved a grade of 75%.',
