@@ -206,12 +206,12 @@ export const DATA = {
       icon: null,
     },
     {
-      title: 'Command Line Interface Tool',
+      title: 'Command Line Interface',
       href: 'https://github.com/charlietlamb/cli-utils',
       dates: 'July 2024 - August 2024',
       active: true,
       description:
-        'Created a custom CLI tool in Rust to deepen my understanding of shell commands like grep and find. The project provided hands-on experience in systems programming and enhanced my proficiency with Rust while reinforcing key concepts from The Rust Programming Language book.',
+        'Created a custom CLI in Rust to deepen my understanding of shell commands like grep and find. The project provided hands-on experience in systems programming and enhanced my proficiency with Rust while reinforcing key concepts from The Rust Programming Language book.',
       technologies: ['Rust', 'CLI', 'Unix', 'Systems Programming'],
       links: [
         {
