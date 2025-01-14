@@ -154,7 +154,7 @@ export const DATA = {
       dates: 'October 2024',
       active: true,
       description:
-        "When I was developing Remio I needed a full calendar component. I couldn't find an adequate open source solution which displayed days, weeks and months. I decided to build my own. My solution is now used in over 30+ projects by other developers.",
+        "When I was developing Remio I needed a full calendar component. I couldn't find an adequate open source solution which displayed days, weeks and months. I decided to build my own. My solution is now used in over 60+ projects by other developers.",
       technologies: [
         'Next.js',
         'React',
