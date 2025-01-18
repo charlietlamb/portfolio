@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: 'https://www.google.com/maps/place/london',
   description: 'Software Engineer with a passion for building things.',
   summary:
-    "I'm a graduate software engineer at Spark Finance, specializing in backend development within a .NET microservices architecture. While my professional focus is on backend systems, I love bridging the gap between frontend and backend in my personal projects. In my spare time, I contribute to open-source, full-stack TypeScript projects — some of my favorites are showcased below.",
+    "I'm a graduate software engineer at Spark Finance, specialising in backend development within a .NET microservices architecture. While my professional focus is on backend systems, I love bridging the gap between frontend and backend in my personal projects. In my spare time, I contribute to open-source, full-stack TypeScript projects — some of my favourites are showcased below.",
   avatarUrl: `${process.env.NEXT_PUBLIC_AWS_CLOUDFRONT_URL}/public/portfolio/charlie.JPEG`,
   skills: [
     'C#',
@@ -79,7 +79,7 @@ export const DATA = {
       start: 'Sept 2024',
       end: 'Present',
       description:
-        'At Spark, I’ve been involved in building several .NET microservices, with the PreQualification.Check service being my most significant contribution. This service orchestrates multiple systems to evaluate client loan eligibility and has become an essential part of the internal sales process, triggered for every new lead. I’ve thoroughly enjoyed tackling backend challenges, honing my C# skills, and delivering a solutions that directly impact the business.',
+        "At Spark, I've been involved in building several .NET microservices, with the PreQualification.Check service being my most significant contribution. This service orchestrates multiple systems to evaluate client loan eligibility and has become an essential part of the internal sales process, triggered for every new lead. I've thoroughly enjoyed tackling backend challenges, honing my C# skills, and delivering a solutions that directly impact the business.",
     },
     {
       company: 'Cisco - Ensoft',
@@ -91,7 +91,7 @@ export const DATA = {
       start: 'Aug 2023',
       end: 'Sept 2023',
       description:
-        'During my internship at Cisco, I created a Python tool that monitors the performance and progress of various teams and leaders across the organization. Meeting Cisco’s internal standards was a challenging but rewarding experience that significantly improved my engineering skills. The tool remains in active use by the Ensoft team, which is something I’m proud of.',
+        "During my internship at Cisco, I created a Python tool that monitors the performance and progress of various teams and leaders across the organisation. Meeting Cisco's internal standards was a challenging but rewarding experience that significantly improved my engineering skills. The tool remains in active use by the Ensoft team, which is something I'm proud of.",
     },
   ],
   education: [
@@ -236,7 +236,7 @@ export const DATA = {
         'Machine Learning',
         'Neural Networks',
         'Backpropagation',
-        'AI Optimization',
+        'AI Optimisation',
       ],
       links: [
         {
@@ -255,11 +255,11 @@ export const DATA = {
       dates: 'January 2024 - June 2024',
       active: true,
       description:
-        'Conducted an in-depth study on Next.js, comparing the performance and user experience benefits of client-side rendering versus server-side rendering. Analyzed various web analytics metrics and their impact on rendering strategies. Achieved a grade of 75%.',
+        'Conducted an in-depth study on Next.js, comparing the performance and user experience benefits of client-side rendering versus server-side rendering. Analysed various web analytics metrics and their impact on rendering strategies. Achieved a grade of 75%.',
       technologies: [
         'Next.js',
         'Web Analytics',
-        'Performance Optimization',
+        'Performance Optimisation',
         'React',
       ],
       links: [
