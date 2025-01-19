@@ -115,6 +115,40 @@ export const DATA = {
   ],
   projects: [
     {
+      title: 'Review Rabbit',
+      href: 'https://www.reviewrabbit.uk',
+      dates: 'December 2024 - Present',
+      active: true,
+      description:
+        'Engineered a comprehensive Google Review management platform that enables local businesses to streamline their customer feedback process. The solution allows organisations to import customer data and identify those who have yet to leave reviews. Features include automated multi-channel outreach via email, WhatsApp and SMS, alongside sophisticated review analytics and response management tools to help businesses maintain their online reputation.',
+      technologies: [
+        'Next.js',
+        'React',
+        'Typescript',
+        'Turborepo',
+        'PostgreSQL',
+        'DrizzleORM',
+        'Hono',
+        'TailwindCSS',
+        'Trigger.dev',
+      ],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://www.reviewrabbit.uk',
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: 'Source',
+          href: 'https://github.com/charlietlamb/review-rabbit',
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: '',
+      video: `${process.env.NEXT_PUBLIC_AWS_CLOUDFRONT_URL}/public/portfolio/remio.mov`,
+      icon: null,
+    },
+    {
       title: 'Remio',
       href: 'https://remio.xyz',
       dates: 'September 2024 - December 2024',
