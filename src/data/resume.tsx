@@ -146,7 +146,7 @@ export const DATA = {
       ],
       image: '',
       video: '',
-      icon: null,
+      icon: <Rabbit className="size-10" />,
     },
     {
       title: 'Remio',
@@ -179,8 +179,8 @@ export const DATA = {
         },
       ],
       image: '',
-      video: '',
-      icon: <Rabbit className="size-10" />,
+      video: `${process.env.NEXT_PUBLIC_AWS_CLOUDFRONT_URL}/public/portfolio/remio.mov`,
+      icon: null,
     },
     {
       title: 'Calendar',
