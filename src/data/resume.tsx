@@ -178,8 +178,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: null,
-      video: null,
+      image: '',
+      video: '',
       icon: <Rabbit className="size-10" />,
     },
     {
