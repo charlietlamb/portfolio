@@ -145,7 +145,7 @@ export const DATA = {
         },
       ],
       image: '',
-      video: null,
+      video: '',
       icon: null,
     },
     {
