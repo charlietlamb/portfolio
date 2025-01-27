@@ -1,5 +1,5 @@
 import { Icons } from '@/components/icons'
-import { Brain, HomeIcon, Terminal, Webhook } from 'lucide-react'
+import { Brain, HomeIcon, Rabbit, Terminal, Webhook } from 'lucide-react'
 
 export const DATA = {
   name: 'Charlie Lamb',
@@ -120,7 +120,7 @@ export const DATA = {
       dates: 'December 2024 - Present',
       active: true,
       description:
-        'Engineered a comprehensive Google Review management platform that enables local businesses to streamline their customer feedback process. The solution allows organisations to import customer data and identify those who have yet to leave reviews. Features include automated multi-channel outreach via email, WhatsApp and SMS, alongside sophisticated review analytics and response management tools to help businesses maintain their online reputation.',
+        'Engineered a comprehensive Google Review management platform that enables local businesses to streamline their customer feedback process. The solution allows organisations to import customer data and identify those who have yet to leave reviews. Features include automated multi-channel outreach via email, WhatsApp and SMS, alongside sophisticated review analytics and response management tools to help businesses maintain their online reputation. This project is currently in development and being migrated to cloudflare workers - hence only the landing page is currently working.',
       technologies: [
         'Next.js',
         'React',
@@ -145,7 +145,7 @@ export const DATA = {
         },
       ],
       image: '',
-      video: `${process.env.NEXT_PUBLIC_AWS_CLOUDFRONT_URL}/public/portfolio/remio.mov`,
+      video: null,
       icon: null,
     },
     {
@@ -178,9 +178,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: '',
-      video: `${process.env.NEXT_PUBLIC_AWS_CLOUDFRONT_URL}/public/portfolio/remio.mov`,
-      icon: null,
+      image: null,
+      video: null,
+      icon: <Rabbit className="size-10" />,
     },
     {
       title: 'Calendar',
