@@ -72,7 +72,7 @@ export function ProjectCard({
           />
         )}
         {icon && (
-          <div className="flex justify-center items-center py-12 flex-grow text-muted-foreground h-full">
+          <div className="flex justify-center items-center py-[60px] flex-grow text-muted-foreground h-full">
             {icon}
           </div>
         )}
