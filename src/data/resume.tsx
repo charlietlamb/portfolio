@@ -79,7 +79,7 @@ export const DATA = {
       logoUrl: "/lw.avif",
       start: "Feb 2025",
       end: "Present",
-      description: "Starting Febuary 2025...",
+      description: "So far at LightWork I've focused on developing complex AI agents, making use of Vector Databases like Weaviate. In addition, I've used evlautions libraries such as DeepEval to inegrate the evaluation of LLMs/Agents into our CI/CD piplines.",
     },
     {
       company: "Spark Finance",
