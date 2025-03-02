@@ -10,16 +10,17 @@ export const DATA = {
   description: "Software Engineer with a passion for building things.",
   summary:
     "I'm currently working as a Product Engineer at LightWork, an innovative startup focusing on integrating AI & agents into the property sector.",
-  avatarUrl: `${process.env.NEXT_PUBLIC_AWS_CLOUDFRONT_URL}/public/portfolio/charlie.JPEG`,
+  avatarUrl: `${process.env.NEXT_PUBLIC_AWS_CLOUDFRONT_URL}/public/portfolio/pp.jpg`,
   skills: [
     "Typescript",
-    "C#",
+    "Node.js",
+    "Python",
+    "AI/ML",
     "AWS",
     "Docker",
     "Jenkins CI/CD",
     "React",
-    "Node.js",
-    "Python",
+    "C#",
     "Rust",
     "Unix",
     "Vim",
@@ -78,8 +79,7 @@ export const DATA = {
       logoUrl: "/lw.avif",
       start: "Feb 2025",
       end: "Present",
-      description:
-        "Starting Febuary 2025...",
+      description: "Starting Febuary 2025...",
     },
     {
       company: "Spark Finance",
